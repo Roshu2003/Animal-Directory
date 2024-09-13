@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply bg-gray-100 h-screen;
+}
+
+.container {
+  @apply max-w-md mx-auto p-4 pt-6;
+}
+
+h1 {
+  @apply text-3xl font-bold mb-4;
+}
+
+form {
+  @apply mb-4;
+}
+
+label {
+  @apply block mb-2;
+}
+
+input {
+  @apply w-full p-2 pl-10 text-sm text-gray-700;
+}
+
+button[type="submit"] {
+  @apply bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded;
+}
+
+ul {
+  @apply list-none mb-0;
+}
+
+li {
+  @apply mb-4;
+}
+
+li:last-child {
+  @apply mb-0;
+}
