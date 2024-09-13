@@ -11,7 +11,6 @@ const Animals = () => {
     };
     fetchData();
   }, []);
-
   const handleDelete = async (id) => {
     await axios
       .delete(`http://localhost:8000/api/delete/${id}`)
